@@ -7,16 +7,24 @@
   "dependencies": {
     "gatsby": "^2.10.0",
     "gatsby-image": "^2.2.1",
+    "gatsby-plugin-csp": "^1.1.2",
+    "gatsby-plugin-flow": "^1.1.0",
     "gatsby-plugin-manifest": "^2.2.0",
     "gatsby-plugin-offline": "^2.2.0",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sharp": "^2.2.1",
+    "gatsby-plugin-typography": "^2.3.0",
     "gatsby-source-filesystem": "^2.1.0",
+    "gatsby-transformer-json": "^2.2.0",
     "gatsby-transformer-sharp": "^2.2.0",
+    "immutable": "^4.0.0-rc.12",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-st-annes": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
@@ -24,7 +32,7 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
